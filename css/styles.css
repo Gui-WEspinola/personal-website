@@ -1,0 +1,101 @@
+:root {
+    --baby-blue: #DFF6FF;
+    --sky-blue: #47B5FF;
+    --mid-blue: #256D85;
+    --dark-blue: #06283D;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+
+
+.top-container {
+    background-color: #DFF6FF;
+    padding: 50px;
+}
+
+.middle-container {
+    background-color: white;
+    height: 100%;
+}
+
+.contact-me {
+    padding: 5em;
+}
+
+.bottom-container {
+    background-color: var(--mid-blue);
+    padding: 3em;
+}
+
+h1 {
+    color: var(--sky-blue);
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--sky-blue);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--mid-blue);
+}
+
+a {
+    color: var(--mid-blue);
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.top-cloud {
+    position: relative;
+    left: 250px;
+    top: 10px; 
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+
+.code-img {
+    border-radius: 24px;
+    width: 30%;
+    float: left;
+    margin: 1em 30px 3em 0;
+}
+
+.computer-img {
+    border-radius: 24px;
+    width: 30%;
+    float: right;
+    margin: 1em 0 3em 30px;
+}
+
+.footer-link {
+    color: var(--dark-blue);
+}
+
+.contact-links {
+    align-content: space-around;
+    margin: auto;
+    width: 25%;
+}

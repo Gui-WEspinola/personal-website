@@ -12,24 +12,9 @@ body{
     text-align: center;
 }
 
-
 .top-container {
     background-color: #DFF6FF;
     padding: 50px;
-}
-
-.middle-container {
-    background-color: white;
-    height: 100%;
-}
-
-.contact-me {
-    padding: 5em;
-}
-
-.bottom-container {
-    background-color: var(--mid-blue);
-    padding: 3em;
 }
 
 h1 {
@@ -54,6 +39,13 @@ a {
     color: var(--mid-blue);
 }
 
+hr {
+    width: 3em;
+    border-style: dotted;
+    border-width: 5px 5px 0 5px;
+    color: grey;
+}
+
 .pro {
     text-decoration: underline;
 }
@@ -68,9 +60,27 @@ a {
     top: 10px; 
 }
 
+.middle-container {
+    background-color: white;
+    height: 100%;
+}
+
+.profile {
+    padding: 6rem 0 3rem;
+}
+
+.profile-pic {
+    max-height: 8rem;
+    max-width: 8rem;
+}
+
+.my-skills-line {
+    margin: 3rem;
+}
+
 .skill-row {
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: justify;
     line-height: 2;
     padding: 30px;
@@ -90,12 +100,63 @@ a {
     margin: 1em 0 3em 30px;
 }
 
-.footer-link {
-    color: var(--dark-blue);
+.contact-me {
+    padding: 3.5em 0 7em;
+}
+
+.bottom-container {
+    background-color: var(--mid-blue);
+    padding: 3em;
 }
 
 .contact-links {
-    align-content: space-around;
     margin: auto;
-    width: 25%;
+    width: 50%;
 }
+
+.linkedin-link {
+    color: var(--dark-blue);
+    position: relative;
+    right: 2rem;
+}
+
+.twitter-link {
+    color: var(--dark-blue);
+}
+
+.github-link {
+    color: var(--dark-blue);
+    position: relative;
+    left: 2rem;
+}
+
+
+.btn {
+    background: #0883d4;
+    background-image: -webkit-linear-gradient(top, #0883d4, #036eb0);
+    background-image: -moz-linear-gradient(top, #0883d4, #036eb0);
+    background-image: -ms-linear-gradient(top, #0883d4, #036eb0);
+    background-image: -o-linear-gradient(top, #0883d4, #036eb0);
+    background-image: linear-gradient(to bottom, #0883d4, #036eb0);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 2rem;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }

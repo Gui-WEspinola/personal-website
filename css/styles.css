@@ -12,11 +12,6 @@ body{
     text-align: center;
 }
 
-.top-container {
-    background-color: #DFF6FF;
-    padding: 50px;
-}
-
 h1 {
     color: var(--sky-blue);
     font-size: 5.625rem;
@@ -40,14 +35,46 @@ a {
 }
 
 hr {
-    width: 3em;
+    width: 3.5%;
     border-style: dotted;
     border-width: 5px 5px 0 5px;
-    color: grey;
+    color: lightgrey;
+    clear:right;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: var(--dark-blue);
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--sky-blue);
+}
+
+.top-container {
+    background-color: #DFF6FF;
+    padding: 50px 0 200px;
+}
+
+.mountain {
+    position: relative;
+    top: 200px;
 }
 
 .pro {
     text-decoration: underline;
+}
+
+.intro{
+    width: 25%;
+    margin: auto;
 }
 
 .bottom-cloud{
@@ -82,7 +109,6 @@ hr {
     width: 50%;
     margin: 50px auto;
     text-align: justify;
-    line-height: 2;
     padding: 30px;
 }
 
@@ -104,32 +130,26 @@ hr {
     padding: 3.5em 0 7em;
 }
 
+.contact-msg {
+    width: 40%;
+    margin: 1rem auto 1.5rem;
+}
+
 .bottom-container {
     background-color: var(--mid-blue);
-    padding: 3em;
+    padding: 3em 0 1em;
+}
+
+.copyright {
+    color: #EFEFEF;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .contact-links {
     margin: auto;
     width: 50%;
 }
-
-.linkedin-link {
-    color: var(--dark-blue);
-    position: relative;
-    right: 2rem;
-}
-
-.twitter-link {
-    color: var(--dark-blue);
-}
-
-.github-link {
-    color: var(--dark-blue);
-    position: relative;
-    left: 2rem;
-}
-
 
 .btn {
     background: #0883d4;
@@ -149,9 +169,9 @@ hr {
     text-decoration: none;
     position: relative;
     top: 2rem;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -159,4 +179,4 @@ hr {
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
-  }
+}
